@@ -4,16 +4,133 @@
     padding: 0px;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightgrey;
+}
+
 header {
     background-color: white;
     padding: 10px 20px;
+    margin-bottom: 50px;
 }
 
-.logo {
-    vertical-align: middle;
+.logo { 
+    vertical-align: middle; /*modificato con correzione*/
 }
 
 h1 {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: middle; /*modificato con correzione*/
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.btns {
+    padding: 20px 45px 10px;
+    border-bottom: 2px solid lightgray;
+ } 
+
+button {
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.primo-bottone {
+    color: white;
+    background-color: #48ADF1;
+    border: 1px solid white;
+}
+.secondo-bottone {
+    color: #aaaaaa;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+}
+
+ul {
+    list-style: none;
+}
+
+.lista-principale {
+    padding: 35px 45px 35px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.freccia { 
+    vertical-align: 2px; /*modificato con correzione*/
+    font-size: 0.8em;
+}
+
+.spazio {
+    margin-bottom: 30px;
+}
+
+.intermedio {
+    margin-bottom: 20px;
+}
+
+.icona { /*modificato con correzione*/
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.7em;
+    line-height: 12px;
+    margin-right: 5px;
+}
+
+.corretta {
+ color: green;
+ border-color: green;
+}
+
+.errata {
+ color: red;
+ border-color: red;
+}
+
+.tag {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 12px;
+    color: white;
+    font-size: 8px;
+    margin-left: 3px;
+}
+
+.tag-blu {
+    background-color: #45ABEA;
+}
+
+.tag-viola{
+    background-color: #9C72E4;
+}
+
+.tag-verde1 {
+    background-color: #63C0A9;
+}
+
+.tag-arancio {
+    background-color: #F29E33;
+}
+
+.tag-rosa {
+    background-color: #D763A1;
+}
+
+.tag-verde2 {
+    background-color: #B0C925;
 }
